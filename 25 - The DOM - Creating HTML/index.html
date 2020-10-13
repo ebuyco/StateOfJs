@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>25 - The DOM - Creating HTML!!!!</title>
+    <link rel="stylesheet" href="../base.css" />
+  </head>
+  <body>
+    <img class="nice cool" src="https://source.unsplash.com/random/600x600" />
+    <div class="items">
+      <div class="item">
+        <img
+          data-name="ernie"
+          data-last="skustaclee"
+          class="custom"
+          src="https://source.unsplash.com/random/300x300"
+        />
+        <img
+          data-name="bbong"
+          src="https://source.unsplash.com/random/300x300"
+        />
+        <img
+          data-name="say my name"
+          src="https://source.unsplash.com/random/300x300"
+        />
+        <p>Hi I'm a item</p>
+      </div>
+      <div class="item item2">
+        <img src="https://source.unsplash.com/random/300x300" />
+        <h2>
+          I am Heading
+          <span>I am hidden</span>
+        </h2>
+        <p>Hi I'm a item</p>
+      </div>
+
+      <p>Hi I'm a item</p>
+      <p>Hi I'm a item</p>
+      <article class="item">
+        <h2>I am an article</h2>
+        <p class="pizza">This is how many pizzas i eat 🍕!</p>
+      </article>
+    </div>
+    <style>
+      img {
+        transition: all 0.2s;
+      }
+      .round {
+        border-radius: 50%;
+        transform: rotate(1turn) scale(2);
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+    <script src="index.js"></script>
+  </body>
+</html>
